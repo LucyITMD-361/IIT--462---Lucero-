@@ -1,1 +1,41 @@
 
+body{
+  background: yellow;
+}
+header .container,main .container, footer.container{
+  max-width: 855px;
+  margin: auto;
+}
+header{
+  background: white;
+  overflow: auto;
+}
+header h1{
+  float: left;
+  width:570px;
+}
+header nav{
+  float: right;
+  width: 285px;
+}
+main{
+  background: white;
+  overflow:auto;
+}
+main .left{
+  float:left;
+  width:570px;
+}
+main .right{
+  float:right;
+  width:285px;
+}
+footer .ContactInfo{
+  float:left;
+  width:570px;
+}
+footer .Links{
+  float:right;
+  width:285px;
+}
+
