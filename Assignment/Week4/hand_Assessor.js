@@ -5,7 +5,7 @@ function handAssessor() {
     {"rank": "king", "suit": "spades"},
     {"rank": "two", "suit": "clubs"},
     {"rank": "four", "suit": "hearts"},
-    {"rank": "eight", "suit": "diamonds"},
+    {"rank": "eight", "suit": "diamonds"}
     ];
 }
 
