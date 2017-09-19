@@ -1,10 +1,10 @@
 
 function handAssessor() {
   var hand = [
-    {"rank": "two", "suit": "spades"}
-    {"rank": "king", "suit": "spades"}
-    {"rank": "two", "suit": "clubs"}
-    {"rank": "four", "suit": "hearts"}
+    {"rank": "two", "suit": "spades"},
+    {"rank": "king", "suit": "spades"},
+    {"rank": "two", "suit": "clubs"},
+    {"rank": "four", "suit": "hearts"},
     {"rank": "eight", "suit": "diamonds"},
     ];
 }
@@ -27,7 +27,7 @@ function handRank(){
 }
 
 function rank(){
-   var ranks = ["two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "jack", "queen", "king", "ace
+   var ranks = ["two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "jack", "queen", "king", "ace"];
     var containsPair = function (hand) {
         var result = false, handRanks;
          handRanks = hand.map(function (card) {
